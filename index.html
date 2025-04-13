@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shankarammal Sabitha  Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer>
+    function toggleDarkMode() {
+      document.body.classList.toggle("dark");
+    }
+
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  </script>
+</head>
+<body>
+
+  <header>
+    <h1>Shankarammal Sabitha's Portfolio</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#weekly-update">Weekly Update</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- About Section -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I am a passionate Electrical and Electronics Engineering student with a keen interest in integrating hardware with intelligent software systems. I believe in learning by building, and I love exploring real-world applications using IoT, automation, and AI.
+      </p>
+      <p>
+        I've worked on meaningful projects like smart sanitary cleaning system ,green cover enhancement system and  live public transit systems. My goal is to contribute to sustainable, tech-driven solutions that improve daily life.
+      </p>
+      
+    </section>
+    <!-- Skills Section -->
+<section class="skills section" id="skills">
+  <h2 class="section-title">Skills</h2>
+
+  <div class="skills__container bd-grid">
+      <div>
+          
+          <p class="skills__text">
+              I have developed a strong technical foundation in electrical and electronics engineering along with excellent communication skills, enabling me to work well within teams and across interdisciplinary projects.
+          </p>
+
+          <!-- Skill 1 -->
+          <div class="skills__data">
+              <div class="skills__names">
+                  <i class='bx bxl-html5 skills__icon'></i>
+                  <span class="skills__name">Electrical Concepts</span>
+              </div>
+              <div class="skills__bar skills__html"></div>
+              <div>
+                  <span class="skills__percentage">75%</span>
+              </div>
+          </div>
+
+          <!-- Skill 2 -->
+          <div class="skills__data">
+              <div class="skills__names">
+                  <i class='bx bxl-css3 skills__icon'></i>
+                  <span class="skills__name">Electronics Concepts</span>
+              </div>
+              <div class="skills__bar skills__css"></div>
+              <div>
+                  <span class="skills__percentage">80%</span>
+              </div>
+          </div>
+
+          <!-- Skill 3 -->
+          <div class="skills__data">
+              <div class="skills__names">
+                  <i class='bx bxl-javascript skills__icon'></i>
+                  <span class="skills__name">Teamwork & Communication</span>
+              </div>
+              <div class="skills__bar skills__js"></div>
+              <div>
+                  <span class="skills__percentage">80%</span>
+              </div>
+          </div>
+
+          <!-- Skill 4 -->
+          <div class="skills__data">
+              <div class="skills__names">
+                  <i class='bx bxs-paint skills__icon'></i>
+                  <span class="skills__name">Python</span>
+              </div>
+              <div class="skills__bar skills__ux"></div>
+              <div>
+                  <span class="skills__percentage">60%</span>
+              </div>
+          </div>
+      </div>
+
+  </div>
+</section>
+
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <div class="project-card">
+        <h3>🚽 AI-Based Smart Toilet System</h3>
+        <p>
+          Ongoing 
+      </p>
+        <p>
+          A cost-efficient smart toilet designed using AI and IoT concepts. Features include automatic cleaning using solenoid valves, odor control via relay-powered exhaust fans, and IR sensor-based user tracking.
+        </p>
+        <ul>
+          <li>🔧 Components: Solenoid valve, IR sensor, relay, exhaust fan</li>
+          <li>🧠 Tech: Embedded C, Arduino, Automation Logic</li>
+          <li>📈 Focus: Hygiene, energy/water saving, user analytics</li>
+        </ul>
+      </div>
+      <div class="project-card">
+        <h3>On-Road Collision Avoidance System | Lead</h3>
+        <p>
+            Nov 2023 – Present
+        </p>
+        <p>
+            Designed and developed an Arduino-based collision avoidance system to detect vehicles approaching from blind spots in the opposite direction, enhancing public safety. The system integrates alarm systems and visual indicators to improve driver awareness and responsiveness.
+        </p>
+        <ul>
+            <li>🖥️Tech: Arduino, Sensors, Alarm Systems</li>
+            <li>💡 Purpose: Practice working with REST APIs and frontend JS</li>
+            <li>📈Achievements: Successfully demonstrated a working prototype, receiving positive feedback for its innovation and practical application, showcasing strong technical skills and problem-solving abilities.</li>
+        </ul>
+    </div>
+      
+
+    <div class="project-card">
+      <h3>Green Cover Enhancement System</h3>
+      <p>
+          Developed an IoT-based green cover enhancement system aimed at improving urban green spaces. The system monitors soil moisture and temperature to automate irrigation and supports plant health.
+      </p>
+      <ul>
+          <li>🖥️ Tech: IoT, Sensors, NodeMCU, Cloud Integration</li>
+          <li>📈 Goal: To enhance urban green areas and contribute to environmental sustainability by automating plant care and maintaining optimal growth conditions.</li>
+      </ul>
+  </div>
+
+    </section>
+
+
+  <!-- Weekly Update Section -->
+<section id="weekly-update">
+  <h2>Weekly Update</h2>
+
+  <!-- Week 1 Update -->
+  <div class="week-update">
+      <button class="week-toggle" onclick="toggleWeek(1)">Week 1</button>
+      <div class="week-content" id="week-1-content">
+          <h3>Self-Knowing Week</h3>
+          <p>
+              In Week 1, I focused on understanding myself through tools like SWOT analysis and SMART goals. This helped identify my strengths and set clear objectives for growth.
+          </p>
+          <p>
+              I also engaged in team activities to improve collaboration and began building my portfolio to showcase my skills and experiences.
+          </p>
+      </div>
+  </div>
+
+  <!-- Week 2 Update -->
+<div class="week-update">
+  <button class="week-toggle" onclick="toggleWeek(2)">Week 2</button>
+  <div class="week-content" id="week-2-content">
+      <h3>Tech Sessions & Project Kickoff</h3>
+      <p>
+          Week 2 focused on exploring core technical skills through interactive sessions and hands-on learning. I deepened my understanding of embedded systems, IoT, and basic programming concepts.
+      </p>
+      <p>
+          We also finalized our project titles and began initial planning and implementation. This marked the beginning of our practical journey where we applied our technical learning to real-world problems.
+      </p>
+      <p>
+          These experiences strengthened our problem-solving abilities and fostered teamwork while shaping the foundation for successful project development.
+      </p>
+  </div>
+</div>
+
+</section>
+
+<!-- JavaScript to Toggle Week Content -->
+<script>
+  function toggleWeek(weekNumber) {
+      var content = document.getElementById("week-" + weekNumber + "-content");
+      if (content.style.display === "none" || content.style.display === "") {
+          content.style.display = "block";
+      } else {
+          content.style.display = "none";
+      }
+  }
+</script>
+
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>
+        <a class="contact-btn" href="mailto:shankarammasabithak@gmail.com">📧 Contact Me</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Sabitha. All rights reserved.</p>
+    <button class="top-btn" onclick="scrollToTop()">⬆ Back to Top</button>
+    <button class="dark-toggle" onclick="toggleDarkMode()">🌙 Toggle Dark Mode</button>
+  </footer>
+
+</body>
+</html>
